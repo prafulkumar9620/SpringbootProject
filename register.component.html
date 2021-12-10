@@ -1,0 +1,19 @@
+<table border="1">
+    <tr>
+        <td>Enter Comment Id</td>
+        <td><input type="text" [(ngModel)]="cid"></td>
+    </tr>
+    <tr>
+        <td>Enter The Commenter Name</td>
+        <td><input [(ngModel)]="commenter" ></td>
+    </tr>
+	<tr>
+        <td>Enter Post Id</td>
+        <td><input type="text" [(ngModel)]="pid"></td>
+    </tr>
+    <tr>
+        <td>Enter The Comment</td>
+        <td><input [(ngModel)]="comment" ></td>
+    </tr>
+    </table>
+	<input type="submit" value="Post Comment" (click)="postComment()"/>
